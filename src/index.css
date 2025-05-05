@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+#place::placeholder{
+  color: black;
+}
+
+#place{
+  outline: none;
+}
+
