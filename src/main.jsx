@@ -7,9 +7,13 @@ import Layout from './Layout.jsx'
 import Home from '../src/components/Home.jsx'
 import About from './components/About.jsx'
 import { CiHome } from 'react-icons/ci'
-import Coaching from './components/Coaching.jsx'
-import Events from './components/Events.jsx'
-import Resources from './components/Resources.jsx'
+
+import Alumni from './components/Alumni.jsx'
+import Placements from './components/Placements.jsx'
+import Recruiters from './components/Recruiters.jsx'
+import Students from './components/Students.jsx'
+import Enquiry from './components/Enquiry.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -24,18 +28,28 @@ const router = createBrowserRouter([
         path : "about",
         element : <About/>
       },
+      
+      
       {
-        path : "coaching",
-        element : <Coaching/>
+        path : "alumni",
+        element : <Alumni/>
       },
       {
-        path : "events",
-        element : <Events/>
+        path : "placements",
+        element : <Placements/>
       },
       {
-        path : "resources",
-        element : <Resources/>
-      }
+        path : "recruiters",
+        element : <Recruiters/>
+      },
+      {
+        path : "students",
+        element : <Students/>
+      },
+      {
+        path : "enquiry",
+        element : <Enquiry/>
+      },
     ]
   }
 ])
