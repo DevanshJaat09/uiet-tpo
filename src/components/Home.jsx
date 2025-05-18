@@ -79,7 +79,9 @@ Join us on a journey of discovery, learning, and growth, where your aspirations 
             <SlBadge  className='text-4xl'/>
               <h2 className='text-2xl font-bold'>Admission Process</h2>
               <p className='text-center'>All the students enrolled at UIET Kurukshetra are selected after rigorous screening process. It ensures that we nurture India’s few most brilliant minds.  </p>
-              <button className='bg-white text-black py-1 px-2 rounded'>Know More</button>
+              <button className='bg-white text-black py-1 px-2 rounded'>
+                <NavLink to='enquiry'>Know More</NavLink>
+                </button>
             </div>
             <div className='w-[30%] glass min-h-[50vh] flex flex-col items-center box gap-2 bg-amber-800 rounded p-4'>
             <FaRegStar className='text-4xl'/>

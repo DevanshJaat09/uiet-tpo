@@ -5,6 +5,8 @@ import { IoMdMail } from "react-icons/io";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaRegCopyright } from "react-icons/fa";
+import { GiSelfLove } from "react-icons/gi";
+
 
 const Footer = () => {
   return (
@@ -30,6 +32,10 @@ const Footer = () => {
           <li className='text-center flex items-center gap-2'>
           <FaMapMarkedAlt />
             www.kuk.ac.in</li>
+            <li className='text-center flex items-center gap-2'>
+          
+            Made with <GiSelfLove />
+ by Divyanshu Sindhu & Shubham</li>
         </ul>
       </div>
 

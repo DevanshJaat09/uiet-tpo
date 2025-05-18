@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 
 const Enquiry = () => {
@@ -7,10 +7,15 @@ const Enquiry = () => {
     const formInputData = Object.fromEntries(formData.entries());
     console.log(formInputData);
   };
+
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   return (
-   
-    <section className="">
-      <h2 className="container-title mt-5">Contact Us</h2>
+   <>
+   <div className='w-full  min-h-screen ' id='img'>
+    <div className='box-2 py-10'>
+      <h2 className="text-center text-5xl font-outfit font-extrabold mb-5">Dream, Design, Develop, Deliver with UIET KUK</h2>
 
       <div className=" ">
         <form action={handleFormSubmit} className='flex w-xl mx-auto flex-col gap-5 font-outfit font-semibold'>
@@ -85,12 +90,14 @@ const Enquiry = () => {
             autoComplete="off"
           ></textarea>
 
-          <button type="submit" value="send" className='bg-[#202020] rounded-2xl py-2 text-xl'>
+          <button type="submit" value="send" className=' mb-10 border-2 border-[#202020] rounded-2xl py-2 text-xl' >
             Send
           </button>
         </form>
       </div>
-    </section>
+    </div>
+    </div>
+    </>
   )
 }
 

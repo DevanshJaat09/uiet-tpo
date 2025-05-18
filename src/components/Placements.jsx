@@ -414,6 +414,9 @@ const getTotalStudentsPlaced = (year) => {
 };
 
 export default function PlacementDashboard() {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   const [year, setYear] = useState("2023");
   const [companyFilter, setCompanyFilter] = useState("All");
   
