@@ -3,11 +3,11 @@ import React from 'react'
 const About = () => {
   return (
     <>
-    <div className='w-full min-h-screen bg text-[#fff2f2] pb-12 font-semibold'>
+    <div className='w-full min-h-screen kuk text-[#fff2f2] pb-12 font-semibold'>
       
         <div className='box p-6 rounded-2xl font-bold '>
         <div className='w-full text-center mb-4'>
-        <h2 className='who text-5xl text-center bg-amber-600'>WHO WE ARE</h2>
+        <h2 className='who text-5xl text-center '>WHO WE ARE</h2>
       </div>
           <p className='even'>
           <span className='text-2xl'>Establishment :</span>
@@ -41,17 +41,7 @@ We look forward to welcoming the next generation of talented students to our ins
             </p>
           </div>
         </div>
-        <div className='w-full flex flex-row-reverse items-center justify-between px-30 box mt-15 py-5 rounded-2xl '>
-          <div >
-            <div className='w-[250px] h-[200px] bg-amber-500 ml-3 vc'></div>
-            <h2 className='text-2xl '>Prof. Som Nath Sachdeva</h2>
-          </div>
-          <div className='w-[60%]'>
-            <p >
-            "It gives me immense pleasure to introduce University Institute of Engineering and Technology (UIET) which was established in 2004 in the campus of Kurukshetra University. It was established with a motive 'MIND TO MARKET' so as to achieve excellence in the key areas of engineering and to produce talented and committed human resources driven by the spirit of innovation and team work. Presently the institute imparts training in the six key branches of Engineering namely Computer Science Engineering, Computer Science & Engg (AI & ML), Electronics and Communication Engineering, Bio-Technology, Electrical and Computer Engineering and Mechanical Engineering. We offer both graduate and post graduate degrees in these branches of Engineering to more than 2000 talented students from all parts of India having top ranks in JEE Main exam."
-            </p>
-          </div>
-        </div>
+        
     </div>
     </>
   )

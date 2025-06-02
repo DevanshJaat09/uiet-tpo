@@ -9,6 +9,10 @@ import { SlBadge } from "react-icons/sl";
 import Marquee from 'react-fast-marquee';
 import ReactLenis from 'lenis/react'
 import SwiperOne from './SwiperOne';
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropMenu from './DepartmentDD';
+import DepartmentDropDown from './DepartmentDD';
+import FacultyDropDown from './FacultyDropDown';
 
 const Home = () => {
   let url = "https://careered.stanford.edu/sites/g/files/sbiybj22801/files/styles/breakpoint_2xl_1x/public/media/image/vpsa_020923_0202_0.jpg.webp?itok=uE9jp3nO"
@@ -32,27 +36,26 @@ Join us on a journey of discovery, learning, and growth, where your aspirations 
         <br />
         <br />
         <br />
-        <NavLink className='text-xl text-blue-700  ' to="/students">
-          Read More
-        </NavLink>
+        
+             {/* dropdown */}
+        
         </div>
-        <div className='w-[30%] h-[100%] bg-[#59B3A9] box  font-bold p-9 text-white glass rounded-xl'><p className='text-4xl'>Departments</p> <br /> UIET is home for various disciplines and 10+ different departments.
+        <div className='w-[30%] h-[100%] bg-[#59B3A9] box  font-bold p-9 text-white glass rounded-xl'><p className='text-4xl'>Departments</p> <br /> UIET is home for various disciplines and 5+ different departments.
         <br />
         <br />
         <br />
         <br />
-        <NavLink className='text-xl text-blue-700 '>
-          Read More
-        </NavLink> </div>
+
+        <DepartmentDropDown/>
+        </div>
         
         <div className='w-[30%] h-[100%] bg-[#59B3A9] box  font-bold p-9 text-white glass rounded-xl'> <p className='text-4xl'>Lorem</p>
         <br />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, autem.</p>
         <br />
         <br />
-        <NavLink className='text-xl text-blue-700 '>
-          Read More
-        </NavLink>
+        <br />
+        <FacultyDropDown/>
          </div>
       </div>
       
