@@ -10,3 +10,20 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+function doPost(e) {
+  var sheet = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1OAeH260Z0aXk4DvdK2SP2NPZiBqL_b4upYBSm1bkRxk/edit?gid=0#gid=0").getSheetByName("Sheet1");
+  sheet.appendRow([
+    new Date(),
+    e.parameter.name,
+    e.parameter.number,
+    e.parameter.email,
+    e.parameter.city,
+    e.parameter.qualifications,
+    e.parameter.exam,
+    e.parameter["interested course"],
+    e.parameter.message
+  ]);
+  return ContentService.createTextOutput("Form submitted successfully");
+}
