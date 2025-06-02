@@ -35,7 +35,7 @@ const Enquiry = () => {
   },[])
   return (
    <>
-   <div className='w-full  min-h-screen ' id='img'>
+   <div className='w-full bg-[#afafaf] min-h-screen ' >
     <div className='box-2 py-10'>
       <h2 className="text-center text-5xl font-outfit font-extrabold mb-5">Dream, Design, Develop, Deliver with UIET KUK</h2>
 
@@ -114,7 +114,7 @@ const Enquiry = () => {
           ></textarea>
 
           <button type="submit" value="send" className=' mb-10 border-2 border-[#202020] rounded-2xl py-2 text-xl' >
-            Send
+            Submit
           </button>
         </form>
       </div>
@@ -125,3 +125,21 @@ const Enquiry = () => {
 }
 
 export default Enquiry
+
+
+
+// function doPost(e) {
+//   var sheet = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1OAeH260Z0aXk4DvdK2SP2NPZiBqL_b4upYBSm1bkRxk/edit?gid=0#gid=0").getSheetByName("Sheet1");
+//   sheet.appendRow([
+//     new Date(),
+//     e.parameter.name,
+//     e.parameter.number,
+//     e.parameter.email,
+//     e.parameter.city,
+//     e.parameter.qualifications,
+//     e.parameter.exam,
+//     e.parameter["interested course"],
+//     e.parameter.message
+//   ]);
+//   return ContentService.createTextOutput("Form submitted successfully");
+// }

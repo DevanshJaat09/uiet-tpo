@@ -101,11 +101,11 @@ Join us on a journey of discovery, learning, and growth, where your aspirations 
         </div>
         <div className='gri box flex items-center p-5 gap-15 flex-wrap rounded mt-7'>
           <div className=''> <img className='h-20' src="https://companieslogo.com/img/orig/JBMA.NS_BIG-0bb22e95.png?t=1720244492" alt="" /></div>
-          <div> <img className='h-20' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/1200px-Infosys_logo.svg.png" alt="" /></div>
-          <div> <img className='h-20' src="https://companieslogo.com/img/orig/BEL.NS_BIG-b2d0690e.png?t=1731133351" alt="" /></div>
+          <div> <img className='h-20'  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/1200px-Infosys_logo.svg.png" alt="" /></div>
+          <div> <img className='w-60' src="https://companieslogo.com/img/orig/BEL.NS_BIG-b2d0690e.png?t=1731133351" alt="" /></div>
           <div><img className='h-20' src="https://pnghunter.com/get-logo.php?id=31248" alt="" /></div>
           <div><img className='h-20' src="https://www.cdnlogo.com/logos/m/58/maruti-suzuki.svg" alt="" /></div>
-          <div><img className='h-20' src="https://upload.wikimedia.org/wikipedia/commons/8/8a/HCL_Technologies_logo.svg" alt="" /> </div>
+          <div><img className=' w-70'  src="https://upload.wikimedia.org/wikipedia/commons/8/8a/HCL_Technologies_logo.svg" alt="" /> </div>
           <div><img className='h-20' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/2560px-Wipro_Primary_Logo_Color_RGB.svg.png" alt="" /></div>
           <div> <img className='h-20' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/DAIKIN_logo.svg/1024px-DAIKIN_logo.svg.png" alt="" /> </div>
           <div><img className='h-20' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tata_Consultancy_Services_old_logo.svg/2560px-Tata_Consultancy_Services_old_logo.svg.png" alt="" /></div>
