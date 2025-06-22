@@ -13,6 +13,7 @@ import Placements from './components/Placements.jsx'
 import Recruiters from './components/Recruiters.jsx'
 import Students from './components/Students.jsx'
 import Enquiry from './components/Enquiry.jsx'
+import { ToastContainer } from 'react-toastify'
 
 
 const router = createBrowserRouter([
@@ -57,5 +58,18 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router}/>
+    <ToastContainer
+position="top-right"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick={false}
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="dark"
+
+/>
   </StrictMode>,
 )

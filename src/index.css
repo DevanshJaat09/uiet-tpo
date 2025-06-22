@@ -2,6 +2,10 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@font-face {
+  font-family: absans;
+  src: url(./absans-regular.otf);
+}
 @custom-variant dark (&:is(.dark *));
 
 body{
@@ -117,7 +121,8 @@ body{
 
  .even{
   text-align: justify;
-    text-justify: auto;
+  text-justify: auto;
+  font-family: absans;
  }
 
  .swiper {

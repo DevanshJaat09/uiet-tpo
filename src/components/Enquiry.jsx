@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-
+import { toast } from 'react-toastify'
 
 const Enquiry = () => {
  
@@ -24,10 +24,29 @@ const Enquiry = () => {
   })
     .then((res) => res.text())
     .then((data) => {
-      alert("Your responses have been submitted");
+     toast.success(' FORM SUBMITTED SUCCESSFULLY!', {
+position: "top-right",
+autoClose: 5000,
+hideProgressBar: false,
+closeOnClick: false,
+pauseOnHover: true,
+draggable: true,
+progress: undefined,
+theme: "dark"
+
+});
     })
     .catch((error) => console.error(error));
 
+    e.target.name.value = ""
+    e.target.number.value = ""
+    e.target.email.value = ""
+    e.target.city.value = ""
+    e.target.qualifications.value = ""
+    e.target.exam.value = ""
+    e.target["interested course"].value = ""
+    e.target.message.value = ""
+    window.scrollTo(0, 0);
   }
 
   useEffect(()=>{

@@ -66,7 +66,7 @@ Join us on a journey of discovery, learning, and growth, where your aspirations 
             <h2 className='text-5xl font-bold text-center'>Why UIET Kurukshetra</h2>
           </div>
           <div className='w-[70%] text-[16px]  p-2 text-center '>
-              <p className='even'>
+              <p className='even text-xl'>
               The University Institute of Engineering & Technology (UIET), Kurukshetra University is a premier institute known for its commitment to academic excellence, industry-oriented learning, and holistic student development. Established with a vision to provide world-class technical education, UIET KUK offers a dynamic environment that fosters innovation, research, and entrepreneurship.
               </p>
           </div>
